@@ -4585,6 +4585,8 @@ self.C3_JsPropNameTable = [
 	{vermelho1: 0},
 	{vermelho2: 0},
 	{vermelho3: 0},
+	{Sprite16: 0},
+	{Sprite17: 0},
 	{winner: 0}
 ];
 
@@ -4619,7 +4621,9 @@ self.InstanceType = {
 	vermelho: class extends self.ISpriteInstance {},
 	vermelho1: class extends self.ISpriteInstance {},
 	vermelho2: class extends self.ISpriteInstance {},
-	vermelho3: class extends self.ISpriteInstance {}
+	vermelho3: class extends self.ISpriteInstance {},
+	Sprite16: class extends self.ISpriteInstance {},
+	Sprite17: class extends self.ISpriteInstance {}
 }
 }
 
